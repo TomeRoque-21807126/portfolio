@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Tomé Roque">
+    <meta name="keywords" content="Programação Web">
+    <meta name="description" content="Quizz sobre a cadeira lecionada">
+    <title>Quizz Programação Web</title>
+
+</head>
+<body style="background-color:aliceblue">
+<main>
+    <header >
+
+    </header>
+    <section>
+        <h1>Programação Web</h1>
+        <br>
+
+        <img src="images/89.png">
+        <br>
+        <nav><a href="../index.html">Home</a>  <a href="local.html">Localização</a> <a href="multimedia.html">Multimédia</a> <a href="info.html">Informação</a> <a href="index.html"><b>Introdução</b></a></nav>
+    </section>
+    <section>
+        <h3>Quizz</h3>
+        <p>Nesta página ser-lhe-á feito um quizz sobre os conhecimentos adquiridos neste website. Pronto?</p>
+
+        <form method="POST" action="mailto: a21807126@alunos.ulht.pt" enctype="multipart/form-data">
+            <fieldset>
+                Mostre que conhece Portimão
+                <fieldset>
+                    <title>info</title>
+                    <input type="text" name="nome" placeholder="insira o seu nome">
+                    <br>
+                    <input type="text" name="apelido" placeholder="insira o seu apelido">
+                    <br>
+                    <input type="email" name="email" placeholder="insira o seu endereço de email">
+
+                </fieldset>
+            </fieldset>
+
+            <fieldset>
+                <title>Perguntas</title>
+                <label><b>Pergunta 1:</b> Portimão é uma cidade de...</label>
+                <br>
+                <input type="radio" id="pais1" name="pais" value="portugal"><label for="pais1"> Portugal</label><br>
+                <input type="radio" id="pais2" name="pais" value="espanha"><label for="pais2"> Espanha</label><br>
+                <input type="radio" id="pais3" name="pais" value="brasil"><label for="pais3"> Brasil</label>
+                <br>
+                <br>
+                <label><b>Pergunta 2:</b> Portimão é localizado a <input type="text" id="emisferio" name="emisferio" placeholder="Norte / Sul / Este / Oeste"><label for="emisferio"> do Pais</label></label>
+                <br>
+                <br>
+                <label><b>Pergunta 3:</b> Esta cidade é conhecida por:</label><br>
+                <input type="checkbox" id="known1" name="known1" value="praia"><label for="known1">Praia</label><br>
+                <input type="checkbox" id="known2" name="known2" value="chuva"><label for="known2">Chuva</label><br>
+                <input type="checkbox" id="known3" name="known3" value="mare"><label for="known3">Marés Vivas</label><br>
+                <input type="checkbox" id="known4" name="known4" value="turismo"><label for="known4">Turismo</label><br>
+                <input type="checkbox" id="known5" name="known5" value="calor"><label for="known5">Calor</label><br>
+                <br>
+                <br>
+                <textarea id="comentario" name="comentario" rows="4" cols="50" placeholder="Escreva um Comentário"></textarea>
+                <br>
+                <br>
+
+                <input type="submit">
+            </fieldset>
+        </form>
+    </section>
+</main>
+</body>
+</html>

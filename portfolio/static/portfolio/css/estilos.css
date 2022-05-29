@@ -1,0 +1,14 @@
+
+
+ display:flex;
+ justify-content:spacebetween;
+ .div{
+     margin-left:auto;
+ }
+
+ nav a {
+     padding: 0 1em;
+     text-decoration: none;
+     font-size: 1rem;
+     color: lightgray;
+ }
